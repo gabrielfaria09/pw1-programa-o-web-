@@ -1,0 +1,24 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+
+}
+
+
+
+/*
+    Unidades de medida
+
+    Podem ser absolutas ou relativas:
+
+    Absolutas --> px (pixels), cm, mm, in, pt, pc
+    Relativa  --> Dependem de algo para serem determindas:
+                  %, em, rem, vh, vw
+
+*/

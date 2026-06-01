@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Flex Box</title>
+
+    <style>
+        .container{ border: 10px solid black;
+        height: 800px;
+        display: flex;flex-direction: row;
+       align-items: center;
+       justify-content: center;
+        font-size: 50px;gap: 90px; align-items: first baseline;
+        padding-top: 25px; flex-wrap: wrap;
+    }
+        
+        .box{border: 2px solid blue;
+            background-color: cadetblue;
+        width: 20%; height: 150px;
+    color: white;  text-align: center;
+}
+        .box2 {height: 260px;border: 2px solid blue;
+            background-color: cadetblue;width: 20%;
+            color: white;text-align: center; 
+            border-radius:0px 0px 15px 15px;
+      }
+
+        .p1{font-size: 36px; text-align: center;align-items: start;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic; font-weight: bold;}
+        .p2{font-size: 50px; text-align: center;align-items: end;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+       'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+        sans-serif; }
+
+        h1{ font-family: "Playwrite DK Uloopet Guides", cursive;
+  font-weight: 400;
+  font-style: normal;}
+
+
+    </style>
+</head>
+<body>
+    <h1>Página Flex Box</h1>
+    <div class="container">
+    <div class="box">1</div>
+    <div class="box2">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div></div>
+    
+    <div class="container"><p class="p1">Lorem ipsum dolor 
+        sit
+         amet consectetur adipisicing elit. Repudiandae
+          praesentium repellendus eos natus.</p>
+          <p class="p2">consequatur
+           maiores corporis cum nihil eum nostrum, sed
+            nam est quaerat quas voluptates rem sapiente
+             deserunt molestias!</p></div>
+</body>
+</html>

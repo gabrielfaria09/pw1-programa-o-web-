@@ -1,0 +1,25 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    font-size: 2rem;
+    transition: font-size 2s;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    
+}
+
+div:hover{
+    font-size: 4rem;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
