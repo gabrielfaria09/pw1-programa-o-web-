@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="teste">Teste de variáveis e funções javascript</p>
+
+    <button onclick="mensagem()"> Isso mostra nome e sobrenome</button>
+    <button onclick="trocar()">Este botão troca o texto</button>
+
+    <script>
+        /*
+        var nome = 'Gabriel';
+        let sobrenome = 'Alves';
+
+        function mensagem(){
+            alert(nome+ ' '+sobrenome);
+        }
+
+        
+        const pi = 3.14;
+        */
+
+        function trocar(){
+            document.getElementById('teste').textContent ='Mudança de texto com javascript';
+        }
+
+        const nome = prompt('Digite o seu nome');
+        alert(nome);
+
+        const numero = +prompt('Digite um número inteiro');
+        alert(numero);
+    </script>
+</body>
+</html>
