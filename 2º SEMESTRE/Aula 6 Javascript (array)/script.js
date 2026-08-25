@@ -14,6 +14,6 @@ busca = frutas.indexOf("Maçã");
 
 console.log(busca);
 
-for (let i = 0; i < 4; i++){
+for (let i = 0; i < frutas.length; i++){
     console.log(frutas[i]);
 }
