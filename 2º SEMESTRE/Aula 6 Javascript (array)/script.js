@@ -41,4 +41,4 @@ console.log(number.reduce((soma, number) => soma + number));
 
 const preco = [10.99,20.99,38.99];
 
-preco.map(preco => preco * 1.1).forEach(preco => console.log(preco));
+preco.map(preco => preco * 1.1).forEach(preco => console.log(preco))
