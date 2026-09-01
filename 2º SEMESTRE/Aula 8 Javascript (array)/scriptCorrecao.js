@@ -7,16 +7,15 @@ const produtos = [
 
 const catalogo = document.getElementById('catalogo');
 
-produtos.forEach(produto => {
-    const [nome,armazenamento, memória, preço] = produto;
-    //const paragrafo = document.createElement('p');
+produtos.forEach(produto =>{
     const divisao = document.createElement('div');
-    divisao.className = "card";
+    divisao.className = 'card';
 
-    divisao.innerHTML = `<h4>${nome}</h4>
-                            <p>${armazenamento}</p>
-                            <p>${memória}</p>
-                            <p>${preço}</p>`;
+    produto.forEach(item => {
+        divisao.textContent += item;
+        const espaco = document.createElement('br');
+        divisao.append(espaco);
+    })
     
     catalogo.append(divisao);
-});
+})

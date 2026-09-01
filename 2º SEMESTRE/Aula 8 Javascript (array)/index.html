@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de produtos</title>
+    <style>
+        #catalogo{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
 </head>
 <body>
-    <form>
+        <h3>Catalogo de produtos:</h3>
         <div id="catalogo">
-        <h3>Catalogo de produtos</h3>
+            <div class="card">
+                <h4>Nome</h4>
+                <p><b>Memória</b></p>
+                <p><b>Memória RAM</b></p>
+                <p><b>preço</b></p>
+            </div>
         </div>
-    </form>
 
     <script src="script.js"></script>
 </body>
