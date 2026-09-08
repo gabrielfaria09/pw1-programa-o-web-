@@ -5,19 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de produtos</title>
     <style>
+        :root{
+            --cor1: #6F1D1B;
+            --cor2: #BB9457;
+            --cor3: #432818;
+            --cor4: #99582A;
+            --cor5: #FFE6A7;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            background-color: var(--cor2);
+            color: var(--cor3);
+        }
+
         #catalogo{
             display: flex;
             flex-direction: row;
             gap: 1rem;
+            background-color: var(--cor4);
+            color: var(--cor2);
+            padding: 2rem;
+            border: 1px solid var(--cor5);
+            border-radius: 5px;
         }
         .card{
             display: flex;
             flex-direction: column;
         }
+
+        h3{
+            color: var(--cor3);
+            font-size: 3rem;
+            letter-spacing: 0.2rem;
+        }
     </style>
 </head>
 <body>
         <h3>Catalogo de produtos:</h3>
+        <form>
+            <label>Pesquise por categoria: </label>
+            <input type="search" id="pesquisa">
+        </form>
         <div id="catalogo">
             <div class="card">
                 <h4>Nome</h4>
